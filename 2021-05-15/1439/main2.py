@@ -5,4 +5,4 @@ for i in input_string:
     if i != prev:
       answer += 1
     prev = i
-print(change//2)
+print(answer//2)
